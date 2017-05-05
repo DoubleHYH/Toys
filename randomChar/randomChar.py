@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 import random, string
 
-def getRandomWord(self,count = 10,type = 'ZH'):
+def getRandomWord(count = 10,type = 'ZH'):
 	#ZH:汉字；EN:字目；NUM:数字；NO:符号
 	def getZH():
 		head = random.randint(0xB0, 0xD7)
